@@ -3,14 +3,15 @@
 A production-oriented URL shortener built using **Node.js**, **Fastify**, **PostgreSQL**, **Redis**, and **Docker**. This project demonstrates scalable backend architecture and production-ready development practices.
 
 
-## 🚀 Tech Stack
+## **Tech Stack**
 
-- **Backend:** Node.js, Fastify
-- **Database:** PostgreSQL
-- **Cache:** Redis
-- **Containerization:** Docker & Docker Compose
+- Node.js
+- Fastify
+- PostgreSQL
+- Redis
+- Docker & Docker Compose
 
-📂 Project Structure
+## **Project Structure**
 
 ├── src
 │   ├── api
@@ -24,7 +25,7 @@ A production-oriented URL shortener built using **Node.js**, **Fastify**, **Post
 └── README.md
 
 
-## ⚙️ Getting Started
+## Getting Started
 
 bash
 # Install dependencies
@@ -54,12 +55,12 @@ json
 }
 
 
-Health Check
+### **Health Check**
 
 http GET /health/live
 
 
-✨ Features
+## **Features**
 
 - URL Shortening
 - Fast Redirects
@@ -68,8 +69,8 @@ http GET /health/live
 - Redis Caching
 - PostgreSQL Storage
 - Modular Project Structure
-
-📌 Future Improvements
+  
+## **Future Improvements**
 
 - User Authentication
 - Custom URL Aliases
